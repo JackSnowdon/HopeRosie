@@ -63,7 +63,8 @@
     color: #fafafa;
 }
 
-.map-link {
+.map-link,
+.map-link p {
     color: #f4f4f4;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
@@ -71,6 +72,7 @@
     -o-transition: all 0.25s ease-in-out;
 }
 
+.map-link p:hover,
 .map-link:hover {
     color: #d9b637;
 }
