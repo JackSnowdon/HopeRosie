@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Hind+Madurai&display=swap');
+
+/* Background */
+
+.main-bg {
+    background-color: black;
+    height: 100%;
+}
+
+
+/* Navbar */
+
+.nav-bg {
+    background: rgba(0, 0, 0, 0.66);
+}
+
+.navbar-title {
+    color: #d9b637;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar li a {
+    display: block;
+    color: #d9b637;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-title:hover,
+.navbar li a:hover {
+    color: #fafafa;
+}
+
+.fa-bars {
+    color: #d9b637;
+}
+
+
+/* Mainpage */
+
+.main-title {
+    color: #f4f4f4;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 75px;
+}
+
+.sub-title {
+    color: #f4f4f4;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 40px;
+}
+
+.main-text {
+    font-family: 'Hind Madurai', sans-serif;
+    color: #fafafa;
+}
+
+.map-link {
+    color: #f4f4f4;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.map-link:hover {
+    color: #d9b637;
+}
+
+
+/* Modal */
+
+.modal-content {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+
+/* Card Deck */
+
+.card-img-top {
+    height: 350px;
+    padding: 0 2rem;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.66);
+    color: #f4f4f4;
+    border: 0;
+}
+
+.card-title {
+    text-align: center;
+}
+
+
+/* Breaks */
+
+.break {
+    width: 130px;
+    height: 1.25px;
+    border: 0;
+    background-color: #ffffff;
+}
+
+
+/* Buttons */
+
+.btn-warning {
+    background-color: #d9b637;
+    border-color: #d9b637;
+    transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+}
+
+.btn-warning:hover {
+    background-color: #d83006;
+    color: #f4f4f4;
+    border-color: #d83006;
+}
