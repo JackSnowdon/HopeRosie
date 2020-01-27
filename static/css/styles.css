@@ -11,15 +11,7 @@
 /* Navbar */
 
 .nav-bg {
-    background: rgba(0, 0, 0, 0.66);
-}
-
-.navbar-title {
-    color: #d9b637;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    background-color: #4f5051ad!important;
 }
 
 .navbar li a {
@@ -34,7 +26,6 @@
     -o-transition: all 0.35s ease-in-out;
 }
 
-.navbar-title:hover,
 .navbar li a:hover {
     color: #fafafa;
 }
@@ -47,34 +38,21 @@
 /* Mainpage */
 
 .main-title {
-    color: #0c0b0b;
+    color: #494E59;
     font-family: 'Bilbo Swash Caps', cursive;
     font-size: 75px;
 }
 
 .sub-title {
-    color: #0c0b0b;
+    color: #494E59;
     font-family: 'Bilbo Swash Caps', cursive;
     font-size: 40px;
 }
 
+.mail-link,
 .main-text {
     font-family: 'Hind Madurai', sans-serif;
-    color: #0c0b0b;
-}
-
-.map-link,
-.map-link p {
-    color: #0c0b0b;
-    transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-}
-
-.map-link p:hover,
-.map-link:hover {
-    color: #d9b637;
+    color: #494E59
 }
 
 .masthead {
@@ -110,18 +88,25 @@
 /* Card Deck */
 
 .card-img-top {
-    height: 350px;
+    height: 325px;
     padding: 0 2rem;
 }
 
 .card {
-    background: rgba(0, 0, 0, 0.66);
-    color: #f4f4f4;
+    color: #f2f2f2fa;
     border: 0;
+    transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
 }
 
 .card-title {
     text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
