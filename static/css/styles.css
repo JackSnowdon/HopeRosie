@@ -3,7 +3,7 @@
 /* Background */
 
 .main-bg {
-    background-color: black;
+    background-color: #f2f2f2fa;
     height: 100%;
 }
 
@@ -47,25 +47,25 @@
 /* Mainpage */
 
 .main-title {
-    color: #f4f4f4;
+    color: #0c0b0b;
     font-family: 'Bilbo Swash Caps', cursive;
     font-size: 75px;
 }
 
 .sub-title {
-    color: #f4f4f4;
+    color: #0c0b0b;
     font-family: 'Bilbo Swash Caps', cursive;
     font-size: 40px;
 }
 
 .main-text {
     font-family: 'Hind Madurai', sans-serif;
-    color: #fafafa;
+    color: #0c0b0b;
 }
 
 .map-link,
 .map-link p {
-    color: #f4f4f4;
+    color: #0c0b0b;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
