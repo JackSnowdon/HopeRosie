@@ -77,11 +77,33 @@
     color: #d9b637;
 }
 
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* Modal */
 
 .modal-content {
     font-family: 'Hind Madurai', sans-serif;
+}
+
+.mail-link {
+    color: #0c0b0b;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.mail-link:hover {
+    text-decoration: none;
+    color: #908a94;
 }
 
 
@@ -128,4 +150,13 @@
     background-color: #d83006;
     color: #f4f4f4;
     border-color: #d83006;
+}
+
+
+/* Media Quires */
+
+@media (min-width: 576px) {
+    .card-deck .card {
+        margin-bottom: 15px;
+    }
 }
