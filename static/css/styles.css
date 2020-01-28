@@ -78,6 +78,8 @@
 
 .modal-content {
     font-family: 'Hind Madurai', sans-serif;
+    background-color: #fcfcfc;
+    color: #494E59;
 }
 
 .mail-link {
@@ -109,12 +111,36 @@
     -o-transition: all 0.45s ease-in-out;
 }
 
-.card-title {
-    text-align: center;
-}
-
 .card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Footer */
+
+.social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+.social-icons a:hover {
+    background-color: #908a94;
 }
 
 
@@ -124,7 +150,14 @@
     width: 130px;
     height: 1.25px;
     border: 0;
-    background-color: #ffffff;
+    background-color: #908a94;
+}
+
+.social-break {
+    height: 2.25px;
+    border: 0.5px;
+    border-radius: 75%;
+    background-color: #908a94;
 }
 
 
@@ -151,5 +184,8 @@
 @media (min-width: 576px) {
     .card-deck .card {
         margin-bottom: 15px;
+    }
+    .logo-img {
+        width: 350px;
     }
 }
