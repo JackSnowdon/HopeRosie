@@ -34,6 +34,10 @@
     color: #d9b637;
 }
 
+.navbar-toggler {
+    border: 0
+}
+
 
 /* Mainpage */
 
@@ -64,6 +68,11 @@
     background-repeat: no-repeat;
 }
 
+.logo-img {
+    width: 275px;
+    height: 100%;
+}
+
 
 /* Modal */
 
@@ -89,7 +98,6 @@
 
 .card-img-top {
     height: 325px;
-    padding: 0 2rem;
 }
 
 .card {

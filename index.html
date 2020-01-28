@@ -37,9 +37,8 @@
             </ul>
         </div>
         <div class="mx-auto order-0">
-            <a class="navbar-brand mx-auto" href="#">Hope Roise | Custom Tattooing</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand mx-auto" href="#">Hope Roise | Custom Tattooing</a>
             </button>
         </div>
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
@@ -48,7 +47,10 @@
                     <a class="nav-link" href="https://www.hoperosemary.bigcartel.com" target="_blank">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ/Aftercare</a>
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#aftercareModal">Aftercare</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#faqModal">FAQ</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
@@ -76,8 +78,6 @@
 
         <div class="container">
 
-
-
             <br>
             <br>
 
@@ -85,7 +85,7 @@
 
                 <div class="row main-text mb-5">
                     <div class="col-md-4 col-12 text-center mb-3">
-                        <img src="http://www.placecage.com/c/350/350" class="rounded-circle" alt="">
+                        <img src="http://www.placecage.com/c/350/350" class="rounded-circle logo-img" alt="">
                     </div>
                     <div class="col-md-8 col-12 text-right mb-3">
                         <p class="lead mt-5">Oh, but you can. But you may have to metaphorically make a deal with the devil. </br> And by "devil", I mean Robot Devil. And by "metaphorically", I mean get your coat. Good news, everyone! There's a report on TV with some very
@@ -145,7 +145,6 @@
             <br>
             <br>
 
-
             <section id="booking">
 
                 <div class="row">
@@ -155,10 +154,10 @@
                     </div>
                 </div>
 
-
-
             </section>
 
+            <br>
+            <br>
 
             <section id="studio">
 
@@ -175,16 +174,12 @@
 
             </section>
 
-
-
-
         </div>
-
     </div>
 
 
 
-    <!-- Modal -->
+    <!-- Modals -->
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -201,6 +196,42 @@
                 </div>
                 <div class="modal-footer">
                     <a class="mail-link" href="https://www.instagram.com/hoperosie/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="faqModal" tabindex="-1" role="dialog" aria-labelledby="faqModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">FAQ</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="aftercareModal" tabindex="-1" role="dialog" aria-labelledby="aftercareModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Aftercare</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
                 </div>
             </div>
         </div>
