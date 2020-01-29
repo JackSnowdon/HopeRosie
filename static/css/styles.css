@@ -94,6 +94,10 @@
     color: #908a94;
 }
 
+.modal-footer {
+    justify-content: left;
+}
+
 
 /* Card Deck */
 
@@ -166,7 +170,8 @@
 .break {
     width: 130px;
     height: 1.25px;
-    border: 0;
+    border: 0.5px;
+    border-radius: 75%;
     background-color: #908a94;
 }
 
@@ -210,5 +215,11 @@
 @media (max-width: 1199.98px) {
     .center-mobile {
         text-align: center;
+    }
+}
+
+@media (max-width: 367px) {
+    .nav-middle-header {
+        font-size: 16px;
     }
 }
